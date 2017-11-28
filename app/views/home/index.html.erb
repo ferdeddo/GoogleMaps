@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Google-Maps-icon.png" sizes="16x16">
+<body>
+
+<h1 class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Google_maps_logo.png" alt="https://upload.wikimedia.org/wikipedia/commons/9/9a/Google_maps_logo.png" style="width: 300px;"></h1>
+
+<form id='LatLng'>
+        <div>
+          <label for="lat">Latitude</label>
+          <input type="text" name="lat" placeholder=ex:-6.364775872205978>
+        </div>
+        <div>
+          <label for="lng">Longitude</label>
+          <input type="text" name="lng" placeholder=ex:106.82727813720703>
+        </div>
+        <div>
+          <label for="msg">Message</label>
+          <input type="text" name="msg" placeholder="mon message">
+        </div>
+        
+          <input id="submit" type="submit" name="submit" value="Place Marker">
+        
+</form>
+<div id="googleMap"></div>
+
+
+
+   
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLbNCXqfhRo1UTcC_9R6dwdwtX1J4F4tE&callback=myMap"></script> 
+  </body>
+</html>
